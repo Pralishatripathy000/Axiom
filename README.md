@@ -45,9 +45,15 @@ Axiom is currently under active development as a **Master's thesis research proj
 
 ## 💭 How Axiom Happened
 
-Axiom did not start as an attempt to build another RAG system.It started with two things I found interesting : **modern retrieval systems** and **classical algorithms**. RAG showed how external knowledge could augment an LLM. GraphRAG went further by organizing that knowledge structurally.
+Axiom did not start as an attempt to build another RAG system. It started with two things I found interesting : 
 
-But once the knowledge became a graph, an older part of computer science suddenly became relevant. Graphs already have decades of algorithms for finding routes through them. So the first question was simple :
+**modern retrieval systems** and **classical algorithms**. 
+
+RAG showed how external knowledge could augment an LLM. GraphRAG went further by organizing that knowledge structurally.
+
+But once the knowledge became a graph, an older part of computer science suddenly became relevant. Graphs already have decades of algorithms for finding routes through them. 
+
+So the first question was simple :
 
 > **Could Dijkstra's algorithm be useful inside GraphRAG?**
 
