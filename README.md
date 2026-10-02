@@ -45,33 +45,17 @@ Axiom is currently under active development as a **Master's thesis research proj
 
 ## 💭 How Axiom Happened
 
-Axiom did not start as an attempt to build another RAG system.
+Axiom did not start as an attempt to build another RAG system.It started with two things I found interesting : **modern retrieval systems** and **classical algorithms**. RAG showed how external knowledge could augment an LLM. GraphRAG went further by organizing that knowledge structurally.
 
-It started with two things I found interesting:
-
-**modern retrieval systems** and **classical algorithms**.
-
-RAG showed how external knowledge could augment an LLM. GraphRAG went further by organizing that knowledge structurally.
-
-But once the knowledge became a graph, an older part of computer science suddenly became relevant.
-
-Graphs already have decades of algorithms for finding routes through them.
-
-So the first question was simple:
+But once the knowledge became a graph, an older part of computer science suddenly became relevant. Graphs already have decades of algorithms for finding routes through them. So the first question was simple :
 
 > **Could Dijkstra's algorithm be useful inside GraphRAG?**
 
-Which immediately produced a much less simple question:
+Which immediately produced a much less simple question :
 
 > **What does a "shortest" path mean when the graph contains knowledge instead of roads?**
 
-A road has distance.
-
-Knowledge has **meaning**.
-
-That shifted the idea from ordinary shortest-path traversal toward **semantic graph traversal**.
-
-Relationships would need to express not only that two concepts are connected, but *how*:
+A road has distance. Knowledge has **meaning**. That shifted the idea from ordinary shortest-path traversal toward **semantic graph traversal**. Relationships would need to express not only that two concepts are connected, but *how*:
 
 ```text
 causes
